@@ -8,7 +8,7 @@ function increment() {
 }
 
 function save() {
-  let savedCount = count + ' - ';
-  saveEl.innerText += savedCount;
+  let savedCount = ' ' + count + ' -';
+  saveEl.textContent += savedCount;
   console.log(count);
 }

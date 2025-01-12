@@ -10,5 +10,6 @@ function increment() {
 function save() {
   let savedCount = ' ' + count + ' -';
   saveEl.textContent += savedCount;
-  console.log(count);
+  count = 0;
+  countEl.textContent = 0;
 }
